@@ -1,0 +1,21 @@
+{
+  "name": "after-5-todo-list",
+  "version": "1.0.0",
+  "description": "TodoList after class coderHouse backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "qa": "nodemon index.js"
+  },
+  "author": "Martin JL",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
